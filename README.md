@@ -27,5 +27,10 @@ The rule: fill only verifiable facts, never estimates.
 - **United Arab Emirates** — missing corruption value in 2018: left blank.
   Imputing a missing value means fabricating it, not cleaning it.
 
-## How to run
-Download the 5 CSVs from Kaggle and place them in the script folder, then run:
+## Setup & run
+1. Clone the repository: git clone https://github.com/elpidioalessandro/world-happiness-tableau.git
+2. Enter the project folder: cd world-happiness-tableau
+3. Install the dependency: pip install pandas
+4. Download the 5 CSVs from [Kaggle](https://www.kaggle.com/datasets/unsdsn/world-happiness) and place them in the project folder
+5. Run the script: python clean_whr.py
+The script outputs happiness_2015_2019.csv, the clean source used for the Tableau dashboard.
