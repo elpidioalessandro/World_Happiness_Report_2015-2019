@@ -1,4 +1,4 @@
-# World Happiness Report (2015-2019), Data cleaning for a Tableau dashboard
+# Data cleaning for a Tableau dashboard (World Happiness Report 2015-2019) 
 
 A Python pipeline that unifies five years of the World Happiness Report into a
 single clean source, later used for an interactive Tableau dashboard.
