@@ -1,4 +1,4 @@
-# World Happiness Report (2015-2019) — Data cleaning for a Tableau dashboard
+# World Happiness Report (2015-2019), Data cleaning for a Tableau dashboard
 
 A Python pipeline that unifies five years of the World Happiness Report into a
 single clean source, later used for an interactive Tableau dashboard.
@@ -6,7 +6,7 @@ single clean source, later used for an interactive Tableau dashboard.
 ## The problem
 The five yearly files have inconsistent schemas:
 - Column names change every year (e.g. social support is "Family" in 2015-2017
-  and "Social support" in 2018-2019 — same factor, different name).
+  and "Social support" in 2018-2019, same factor, different name).
 - Column order is swapped in 2017.
 - The geographic Region is missing from 2017 onwards.
 - The same countries are spelled differently across years.
